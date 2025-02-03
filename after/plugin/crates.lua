@@ -1,0 +1,24 @@
+-- TODO: Currently commented out in init.lua
+-- local crates = require('crates')
+-- local opts = { silent = true }
+--
+-- -- Don't use default <leader>c... bc commenting out a line is <leader>c right now and this makes vim wait for another character
+-- vim.keymap.set('n', '<leader>vcv', crates.show_versions_popup, opts)
+-- vim.keymap.set('n', '<leader>vcf', crates.show_features_popup, opts)
+-- vim.keymap.set('n', '<leader>vcd', crates.show_dependencies_popup, opts)
+--
+-- vim.keymap.set('n', '<leader>vcH', crates.open_homepage, opts)
+-- vim.keymap.set('n', '<leader>vcR', crates.open_repository, opts)
+-- vim.keymap.set('n', '<leader>vcD', crates.open_documentation, opts)
+-- vim.keymap.set('n', '<leader>vcC', crates.open_crates_io, opts)
+--
+--
+-- --vim.keymap.set('n', '<leader>ct', crates.toggle, opts)
+-- --vim.keymap.set('n', '<leader>cr', crates.reload, opts)
+--
+-- --vim.keymap.set('n', '<leader>cu', crates.update_crate, opts)
+-- --vim.keymap.set('v', '<leader>cu', crates.update_crates, opts)
+-- --vim.keymap.set('n', '<leader>ca', crates.update_all_crates, opts)
+--
+-- --vim.keymap.set('n', '<leader>ce', crates.expand_plain_crate_to_inline_table, opts)
+-- --vim.keymap.set('n', '<leader>cE', crates.extract_crate_into_table, opts)

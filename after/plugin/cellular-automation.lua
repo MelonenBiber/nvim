@@ -1,0 +1,2 @@
+-- TODO: Not in use right now, maybe even remove this file if I removed the plugin completely?
+-- vim.keymap.set("n", "<leader>vfml", "<cmd>CellularAutomaton make_it_rain<CR>")
